@@ -1,5 +1,13 @@
 body{
   background-color: #fff;
+  background-image: url(https://wallpapercave.com/wp/wp3131827.jpg);
+  background-size: cover;
+  color: white
+}
+
+.title{
+  background-color: rgba(41, 41, 40, 0.9);
+  border-radius: 10px;
 }
 
 
@@ -9,20 +17,38 @@ body{
 
 .calculator{
   width: 1100px;
-  background-color: #fcd58d;
+  background-color: rgba(51, 51, 51, .9);
   border-radius: 10px;
+}
 
+.sub-title{
+  border-radius: 10px;
+  background-color: rgba(202, 115, 0, 0.9);
+}
 
+.in-put{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.buttons{
+  margin: 40px 30px;
+  
 }
 
 .data{
   margin: 0 auto;
 }
 
+.left-r{
+  border-right: 1px solid black;
+}
+
 .print-ticket{
   width: 1100px;
   height: 300px;
-  background-color: #fcd58d;
+  background-color: rgba(51, 51, 51, .9);
   border-radius: 10px;
 
 }
+
