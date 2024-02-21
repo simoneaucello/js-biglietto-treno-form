@@ -14,6 +14,49 @@
   <title>Acquista il tuo biglietto</title>
 </head>
 <body>
+
+  <div class="container my-5 d-flex justify-content-center flex-wrap ">
+
+    <div>
+      <h1 class="text-center ">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>    
+      <div class="calculator debug">
+        <div class="data d-flex justify-content-center my-5 p-5">
+          <div class="mx-5 ">
+            <h5>Nome e Cognome</h5>
+          <input class="name" type="text" name="" id="">
+          </div>
+          <div class="mx-5 ">
+            <h5>Km da percorrere</h5>
+          <input class="km" type="text" name="" id="">
+          </div>
+          <div class="mx-5 ">
+            <h5>Fascia d'età</h5>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Seleziona</option>
+              <option value="Minorenne">Minorenne</option>
+              <option value="Maggiorenne">Maggiorenne</option>
+              <option value="Over">Over</option>
+            </select>
+          </div>           
+        </div>
+
+        <!-- button  -->
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn generate btn-primary btn-lg">Genera</button>
+          <button type="button" class="btn reset btn-secondary btn-lg">Annulla</button>
+        </div>
+
+      </div>
+      
+      <div class="mt-5">
+        <h1 class="text-center ">IL TUO BIGLIETTO</h1>    
+        <div class="calculator mt-5 debug"></div>
+      </div>
+      
+    </div>
+
+
+  </div>
   
 
 
