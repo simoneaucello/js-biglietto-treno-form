@@ -26,3 +26,4 @@
 
 const nameSurname = document.querySelector('.name');
 const kmTravel = document.querySelector('km');
+const agePassenger = document.querySelector('age');
