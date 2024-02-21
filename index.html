@@ -21,78 +21,74 @@
       <h1 class="text-center title ">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>    
       <div class="calculator mt-5 debug">
         <div class="data d-flex justify-content-center my-5">
+
           <div class="mx-3 text-center">
-            <h5>Nome e Cognome</h5>
-          <input class="name mt-4 in-put" type="text" name="" id="1" size="30">
+            <h5>Inserisci Nome e Cognome</h5>
+          <input class="name mt-4 in-put" type="text" name="" id="1" size="30" placeholder="Inserisci nome e cognome">
           </div>
+          
           <div class="mx-3 text-center">
-            <h5>Km da percorrere</h5>
-          <input class="km mt-4 in-put" type="text" name="" id="2" size="30">
+            <h5>Quanti Km vuoi percorrere?</h5>
+          <input class="km mt-4 in-put" type="text" name="" id="2" size="30" placeholder="Inserisci i Km da percorrere">
           </div>
+
           <div class="mx-3 text-center">
-            <h5>Quanti anni hai?</h5>
-            <input class="age mt-4 in-put" type="text" name="" id="3" size="30">
+            <h5>Inserisci la tua età</h5>
+            <input class="age mt-4 in-put" type="text" name="" id="3" size="30" placeholder="Inserisci la tua età">
           </div>           
         </div>
 
-        <!-- button  -->
+        <!-- buttons  -->
         <div class="d-flex justify-content-center">
           <button type="button" class="btn generate btn-primary btn-lg buttons">Genera</button>
           <button type="button" class="btn reset btn-secondary btn-lg buttons">Annulla</button>
         </div>
         <!-- button  -->
+      </div>  
 
-      </div>
-      
-      <div class="mt-5 ticket d-none">
+      <!-- TICKET  -->
+      <div class="mt-2 ticket d-none">
         <div class="sub-title">
         <h1 class="text-center ">IL TUO BIGLIETTO</h1>    
       </div>
         <div class="print-ticket">
           <div class="row">
-            <div  class="col-4 p-3 text-center  left-r ">
-              <h1>NOME PASSEGGERO</h1>
+            <div class="col-4 p-3 text-center  left-r ">
 
+              <h1>NOME PASSEGGERO</h1>
             </div>
 
-            <div class="col-2 p-3 offer left-r ">
+            <div class="col-2 p-3 mt-3 offer left-r ">
               <h5>Offerta</h5>
             </div>
-            <div class="col-2 p-3 carrozza left-r">
+            <div class="col-2 p-3 mt-3 carrozza left-r">
               <h5>Carrozza</h5>
             </div>
-            <div class="col-2 p-3 cp-code left-r">
+            <div class="col-2 p-3 mt-3 cp-code left-r">
               <h5>Codice CP</h5>
             </div>
-            <div class="col-2 p-3 ticket-price ">
+            <div class="col-2 p-3 mt-3 ticket-price ">
               <h5>Costo biglietto</h5>
             </div>
           </div>
 
-
+          <div class="divide"></div>
 
           <div class="row mt-3 ">
             <div  class="col-4 p-3 text-center left-r">
               <h3 id="passenger"></h3>
-
             </div>
 
             <div id="offer" class="col-2 p-3 fs-5 left-r"></div>
-            <div id="carrozza" class="col-2 p-3 left-r"></div>
-            <div id="cpCode" class="col-2 p-3 left-r "></div>
-            <div id="price" class="col-2 p-3 left-r"></div>
+            <div id="carrozza" class="col-2 fs-5 p-3 left-r"></div>
+            <div id="cpCode" class="col-2 fs-5 p-3 left-r "></div>
+            <div id="price" class="col-2 fs-5 p-3 left-r"></div>
           </div>
         </div>
-      </div>
-      
+      </div>    
     </div>
-
-
   </div>
   
-
-
-
   <script src="js/script.js"></script>
 </body>
 </html>
