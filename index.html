@@ -23,34 +23,38 @@
         <div class="data d-flex justify-content-center my-5 p-5">
           <div class="mx-5 ">
             <h5>Nome e Cognome</h5>
-          <input class="name" type="text" name="" id="">
+          <input class="name" type="text" name="" id="1">
           </div>
           <div class="mx-5 ">
             <h5>Km da percorrere</h5>
-          <input class="km" type="text" name="" id="">
+          <input class="km" type="text" name="" id="2">
           </div>
           <div class="mx-5 ">
-            <h5>Fascia d'età</h5>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Seleziona</option>
-              <option value="Minorenne">Minorenne</option>
-              <option value="Maggiorenne">Maggiorenne</option>
-              <option value="Over">Over</option>
-            </select>
+            <h5>Quanti anni hai?</h5>
+            <input class="age" type="text" name="" id="3" >
           </div>           
         </div>
 
         <!-- button  -->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center p-5">
           <button type="button" class="btn generate btn-primary btn-lg">Genera</button>
           <button type="button" class="btn reset btn-secondary btn-lg">Annulla</button>
         </div>
+        <!-- button  -->
 
       </div>
       
-      <div class="mt-5">
+      <div class="mt-5 ticket">
         <h1 class="text-center ">IL TUO BIGLIETTO</h1>    
-        <div class="calculator mt-5 debug"></div>
+        <div class="print-ticket mt-5 debug">
+          <div class="row">
+            <div id="price" class="col-3 debug">
+
+            </div>
+
+            <div class="col-9 debug"></div>
+          </div>
+        </div>
       </div>
       
     </div>
